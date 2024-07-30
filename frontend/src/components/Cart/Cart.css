@@ -1,0 +1,51 @@
+.cart-page {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.cart-page__item .btn__delete {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.cart-page__item img {
+  width: 60px;
+}
+
+.cart-page__header {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cart-page__item .cart-page__item-name {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.cart-page__group-btn {
+  width: max-content;
+  border: 1px solid #ccc;
+  display: flex;
+  gap: 10px;
+}
+
+.cart-page__group-btn > button {
+  border: 1px solid #ccc;
+  line-height: 100%;
+}
+
+.cart-page__item-price {
+  font-weight: 600;
+}
+
+.cart-page__cnt {
+  font-size: 15px;
+  font-weight: 500;
+  float: right;
+}

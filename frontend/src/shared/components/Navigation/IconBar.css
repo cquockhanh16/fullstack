@@ -1,0 +1,15 @@
+.icon-bar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: max-content;
+  padding: 0 8px;
+  cursor: pointer;
+}
+.icon-bar img {
+  width: 40px;
+}
+
+.icon-bar:hover {
+  background-color: #fff;
+}

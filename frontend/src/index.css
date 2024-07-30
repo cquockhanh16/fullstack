@@ -1,0 +1,43 @@
+body {
+  background-color: #e2e2e2;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.boxShadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.disabled_product {
+  position: relative;
+  display: inline-block; /* Hoặc block tùy vào phần tử */
+}
+
+.disabled_product::after {
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  background-image: url("https://png.pngtree.com/png-clipart/20221010/ourmid/pngtree-korean-text-postmark-sold-out-png-image_6287356.png");
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (max-width: 991px) {
+  .flex-column-md {
+    flex-direction: column;
+  }
+}

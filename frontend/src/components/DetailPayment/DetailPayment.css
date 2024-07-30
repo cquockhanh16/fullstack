@@ -1,0 +1,35 @@
+.detail-payment {
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+.order-infor {
+  padding: 30px 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.order-infor p {
+  color: rgb(23, 136, 23);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.order-infor ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.order-infor ul li {
+  font-size: 16px;
+}
+
+.order-infor ul li span {
+  font-weight: 500;
+}
+
+.order-detail__item {
+  overflow: auto;
+  height: 300px;
+}

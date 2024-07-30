@@ -1,0 +1,22 @@
+.cart-item__img {
+  width: 100%;
+}
+.cart-item__name {
+  font-size: 14px;
+}
+
+.cart-item__price {
+  font-size: 14px;
+  color: rgb(2, 2, 2);
+  font-weight: 600;
+}
+
+.cart-item__btn {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 100%;
+  text-align: center;
+  background-color: #fff;
+}

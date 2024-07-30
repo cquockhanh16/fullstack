@@ -1,0 +1,23 @@
+.category {
+  background-color: #fff;
+}
+
+.category select {
+  padding: 4px 10px;
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    display: none;
+    height: 100vh;
+    overflow: auto;
+  }
+}

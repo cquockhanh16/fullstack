@@ -1,0 +1,10 @@
+.accessory {
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.nav-accessory > ul {
+  display: flex;
+  gap: 20px;
+}

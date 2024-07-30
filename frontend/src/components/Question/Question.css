@@ -1,0 +1,24 @@
+.question {
+  padding: 40px 0 20px 0;
+  background-color: #fff;
+}
+
+.question img {
+  width: 100%;
+}
+
+.question li {
+  border-top: 1px solid #ccc;
+  padding: 15px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.question li:hover .question li span {
+  color: rgb(49, 199, 213);
+}
+
+.q_active {
+  border-top: 1px solid #ccc;
+  color: rgb(223, 223, 37);
+}

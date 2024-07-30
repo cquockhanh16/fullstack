@@ -1,0 +1,9 @@
+.orders {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.orders_item {
+  overflow-x: auto;
+  height: 300px;
+}

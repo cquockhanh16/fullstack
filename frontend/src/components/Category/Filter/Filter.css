@@ -1,0 +1,9 @@
+.filter .line {
+  width: 40px;
+  border: 2px solid #e8e8e8;
+  margin: 10px 0;
+}
+
+.filter p {
+  font-size: 15px;
+}

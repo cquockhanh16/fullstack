@@ -1,0 +1,21 @@
+.product-portfolio div {
+  width: 40px;
+  border: 2px solid #e8e8e8;
+  margin-bottom: 10px;
+}
+
+.product-portfolio li {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-portfolio a {
+  color: #000;
+  font-weight: 400;
+}
+
+.active-port {
+  background-color: #ebebeb;
+}

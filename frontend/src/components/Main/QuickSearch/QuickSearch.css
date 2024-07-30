@@ -1,0 +1,15 @@
+.quick-seacrh ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.quick-seacrh li {
+  padding: 10px 0;
+}
+
+.quick-seacrh a {
+  font-size: 14px;
+  color: #515151;
+}

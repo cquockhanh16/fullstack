@@ -1,0 +1,36 @@
+.tbl_products,
+.tbl_products tr,
+.tbl_products td,
+.tbl_products th {
+  border: 1px solid #fff;
+}
+
+.tbl_products th {
+  text-align: center;
+  padding: 10px 16px;
+}
+
+.tbl_products td {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.form_add select {
+  min-width: 300px;
+  max-width: 90%;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.form_add label {
+  font-weight: 600;
+}
+
+.form_add input {
+  min-width: 300px;
+  max-width: 90%;
+}
+
+.form_add-group {
+  /* margin-bottom: 5px; */
+}

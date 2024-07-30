@@ -1,0 +1,17 @@
+.pro_img img {
+  width: 150px;
+}
+
+.form-edit input {
+  width: 80%;
+}
+
+.form-edit select {
+  padding: 4px 0;
+  width: 50%;
+}
+
+.form-edit label {
+  font-size: 16px;
+  font-weight: 600;
+}

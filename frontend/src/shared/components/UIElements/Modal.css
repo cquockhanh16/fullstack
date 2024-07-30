@@ -1,0 +1,18 @@
+.my_modal {
+  z-index: 10000;
+  background-color: #ffffff;
+  position: absolute;
+  min-width: 500px;
+  /* height: 300px; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  color: #000;
+}
+
+.my_modal.error h3 {
+  color: red;
+}

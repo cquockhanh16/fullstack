@@ -1,0 +1,10 @@
+.post-item {
+  padding: 10px;
+}
+.post-item img {
+  width: 100%;
+}
+.post-item p {
+  font-size: 14px;
+  font-weight: 500;
+}

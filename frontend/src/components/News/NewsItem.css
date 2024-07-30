@@ -1,0 +1,17 @@
+.news-item {
+}
+
+.news-item__img img {
+  width: 100%;
+}
+
+.news-item h5 {
+  margin: 10px 0;
+}
+
+.news-item__des {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

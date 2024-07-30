@@ -1,0 +1,23 @@
+.synthesis-product {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.synthesis-product li {
+  line-height: 100%;
+}
+
+.synthesis-product li a {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border: 1px solid rgb(44, 151, 197);
+  border-radius: 5px;
+}
+
+.synthesis-product li a:hover {
+  background-color: rgb(44, 151, 197);
+  color: #fff;
+}

@@ -1,0 +1,63 @@
+.product-detail {
+  background-color: #fff;
+  padding-top: 40px;
+}
+
+.product-detail img {
+  width: 100%;
+}
+
+.detail {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.detail-img {
+  position: relative;
+}
+
+.detail-img span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: #fff;
+  width: max-content;
+  padding: 4px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: center;
+}
+
+.detail li {
+  margin-bottom: 10px;
+}
+
+.product-detail select {
+  padding: 4px 10px;
+  width: 70%;
+}
+
+.count p {
+  border: 1px solid #ccc;
+}
+
+.count button {
+  outline: none;
+  border: none;
+}
+
+.infor-detail td {
+  padding: 6px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+h4 > span.discount {
+  text-decoration: line-through;
+  font-size: 90%;
+  color: #9f9f9f;
+  margin-right: 10px;
+}

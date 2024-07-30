@@ -1,0 +1,11 @@
+.attach-item {
+  padding: 10px;
+  border: 1px solid #eaeaea;
+}
+.attach-item img {
+  width: 100%;
+}
+.attach-item p {
+  font-size: 14px;
+  font-weight: 500;
+}

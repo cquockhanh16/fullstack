@@ -1,0 +1,16 @@
+.tbl_orders,
+.tbl_orders tr,
+.tbl_orders td,
+.tbl_orders th {
+  border: 1px solid #fff;
+}
+
+.tbl_orders th {
+  text-align: center;
+  padding: 10px 16px;
+}
+
+.tbl_orders td {
+  padding: 10px 10px;
+  text-align: center;
+}
